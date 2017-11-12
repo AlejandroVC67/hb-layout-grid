@@ -27,19 +27,19 @@
     background-color: #D8D8D8;
 }
 
-.contenedor-grande{
+.big-wrapper{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 20px;
 
 }
-.contenedor-pequeno{
+.small-wrapper{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 20px;
 }
 
-.cajas-grandes{
+.big-items{
     width: 100%;
     height: 300px;
     margin-top: 100px;
@@ -64,18 +64,18 @@
     
 }
 
-.caja-minima{
+.square{
     width: 150px;
     height: 150px;
 }
 
 @media(max-width:600px){
 
-    .contenedor-grande{
+    .big-wrapper{
         grid-template-columns: 1fr;
     }
 
-    .contenedor-pequeno{
+    .small-wrapper{
         grid-template-columns: 1fr;
     }
 }
